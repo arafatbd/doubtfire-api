@@ -1,29 +1,30 @@
 development:
-  adapter:      <%= ENV['DF_DEV_DB_ADAPTER'] %>
-  database:     <%= ENV['DF_DEV_DB_DATABASE'] %>
-  username:     <%= ENV['DF_DEV_DB_USERNAME'] %>
-  password:     <%= ENV['DF_DEV_DB_PASSWORD'] %>
-  host:         <%= ENV['DF_DEV_DB_HOST']     %>
+  adapter:   postgresql
+  database:  cse-ruet
+  username:  cse-ruet
+  password:  d872$dh
+  host:   localhost
   min_messages: warning
 
 test:
-  adapter:      <%= ENV['DF_TEST_DB_ADAPTER'] %>
-  database:     <%= ENV['DF_TEST_DB_DATABASE'] %>
-  username:     <%= ENV['DF_TEST_DB_USERNAME'] %>
-  password:     <%= ENV['DF_TEST_DB_PASSWORD'] %>
-  host:         <%= ENV['DF_TEST_DB_HOST']     %>
+  adapter:   postgresql
+  database:  cse-ruet
+  username:  cse-ruet
+  password:  d872$dh
+  host:   localhost
   min_messages: warning
 
 staging:
-  adapter:  <%= ENV['DF_STAGING_DB_ADAPTER']  %>
-  host:     <%= ENV['DF_STAGING_DB_HOST']     %>
-  database: <%= ENV['DF_STAGING_DB_DATABASE'] %>
-  username: <%= ENV['DF_STAGING_DB_USERNAME'] %>
-  password: <%= ENV['DF_STAGING_DB_PASSWORD'] %>
+  adapter:   postgresql
+  database:  cse-ruet
+  username:  cse-ruet
+  password:  d872$dh
+  host:   localhost
+  min_messages: warning
 
 production:
-  adapter:  <%= ENV['DF_PRODUCTION_DB_ADAPTER']  %>
-  host:     <%= ENV['DF_PRODUCTION_DB_HOST']     %>
-  database: <%= ENV['DF_PRODUCTION_DB_DATABASE'] %>
-  username: <%= ENV['DF_PRODUCTION_DB_USERNAME'] %>
-  password: <%= ENV['DF_PRODUCTION_DB_PASSWORD'] %>
+  adapter:   postgresql
+  database:  cse-ruet
+  username:  cse-ruet
+  password:  d872$dh
+ 
