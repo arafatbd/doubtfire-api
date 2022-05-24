@@ -1,29 +1,29 @@
 development:
   adapter:   postgresql
-  database:  cse-ruet
-  username:  cse-ruet
-  password:  abc
+  database:  cse_ruet
+  username:  postgres
+  password:  postgres
   host:   localhost
   min_messages: warning
 
 test:
   adapter:   postgresql
-  database:  cse-ruet
-  username:  cse-ruet
-  password:  abc
+  database:  cse_ruet
+  username:  postgres
+  password:  postgres
   host:   localhost
   min_messages: warning
 
 staging:
   adapter:   postgresql
-  database:  cse-ruet
-  username:  cse-ruet
-  password:  abc
+  database:  cse_ruet
+  username:  postgres
+  password:  postgres
   host:   localhost
   min_messages: warning
 
 production:
   adapter:   postgresql
-  database:  cse-ruet
-  username:  cse-ruet
-  password:  abc
+  database:  cse_ruet
+  username:  postgres
+  password:  postgres
